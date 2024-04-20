@@ -6,6 +6,7 @@ COLUMN *create_column(char* title){
 
     COLUMN* ptr = (COLUMN*) malloc(sizeof (COLUMN));
 
+    ptr->titre = title;
     ptr->taille_phy = 0;
     ptr->taille_log = 0;
 
@@ -60,6 +61,15 @@ int superieur(COLUMN* col, int val){
     int cpt = 0;
     for (int i = 0; i<col->taille_log; i++){
         if (col->donnee[i] > val)
+            cpt++;
+    }
+    return cpt;
+}
+
+int inferieur(COLUMN* col, int val){
+    int cpt = 0;
+    for (int i = 0; i<col->taille_log; i++){
+        if (col->donnee[i] < val)
             cpt++;
     }
     return cpt;

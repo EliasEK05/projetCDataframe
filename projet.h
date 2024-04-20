@@ -3,7 +3,7 @@
 #define REALOC_SIZE 256
 
 typedef struct {
-    char titre[100];
+    char* titre;
     int taille_phy;
     int taille_log;
     int* donnee;
@@ -17,6 +17,9 @@ void delete_column(COLUMN **col);
 
 void print_col(COLUMN* col);
 
+void print_CD(COLUMN liste[], int taille);
+
+
 int nb_occ(COLUMN* col, int val);
 
 int position(COLUMN* col , int val);
@@ -25,7 +28,7 @@ int superieur(COLUMN* col, int val);
 
 int inferieur(COLUMN* col, int val);
 
-int egale(COLUMN* col, int val);
+
 
 
 

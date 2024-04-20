@@ -14,7 +14,7 @@ int main() {
         liste_ptr[i] = ptr;
     }
     for (int i = 0; i<tl; i++){
-        for (int j =0; j<3; j++){
+        for (int j =0; j<tl; j++){
             printf("Saisir une valeur a ajouter dans la colonne %d ligne %d : ", i,j);
             int val;
             scanf("%d", &val);
@@ -23,15 +23,17 @@ int main() {
 
         }
     }
-    printf("Titres   ");
+    printf("Num colonne   ");
     for (int i = 0; i < tl; i++)
         printf("%s   ", liste_ptr[i]->titre);
+    printf("\n");
 
     for (int i = 0; i<tl;i++){
+        printf("      [%d]        ", i);
         for (int j =0; j<tl; j++) {
-            printf("[i]");
+            printf("%d      ",liste_ptr[j]->donnee[i]);
         }
-
+        printf("\n");
     }
 
 

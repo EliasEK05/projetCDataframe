@@ -38,7 +38,6 @@ void print_col(COLUMN* col){
     for (int i = 0; i<col->taille_log; i++){
         printf("[%d] %d\n",i, col->donnee[i]);
     }
-
 }
 
 int nb_occ(COLUMN* col, int val){
@@ -74,3 +73,5 @@ int inferieur(COLUMN* col, int val){
     }
     return cpt;
 }
+
+

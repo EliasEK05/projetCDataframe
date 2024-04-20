@@ -1,14 +1,20 @@
+
 #ifndef PROJETCDATAFRAME_PROJET_H
 #define PROJETCDATAFRAME_PROJET_H
 #define REALOC_SIZE 256
 
+
+
+typedef enum enum_type ENUM_TYPE;
 typedef struct {
-    char titre[100];
+    char* titre;
     int taille_phy;
     int taille_log;
     int* donnee;
 
 }COLUMN;
+
+
 COLUMN *create_column(char* title);
 
 int insert_value(COLUMN* col, int value);
@@ -25,7 +31,7 @@ int superieur(COLUMN* col, int val);
 
 int inferieur(COLUMN* col, int val);
 
-int egale(COLUMN* col, int val);
+
 
 
 
@@ -36,3 +42,4 @@ int egale(COLUMN* col, int val);
 
 
 #endif //PROJETCDATAFRAME_PROJET_H
+

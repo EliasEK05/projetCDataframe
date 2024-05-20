@@ -5,19 +5,19 @@ projet C
 
 
 
-Bienvenu dans le CDataframe.
+Bienvenue dans le CDataframe.
 
-Afin de faire fonctionne le CDataframe, veuillez lancer le programme.
+Afin de faire fonctionner le CDataframe, veuillez lancer le programme.
 
-Ensuite il faut suivre les instruction qui s'affichent dans la console.
+Ensuite, il faut suivre les instructions qui s'affichent dans la console.
 
-Vous avez la possibilité de remplir le CDataframe en dur (via le main entre la ligne 23 à la ligne 41). Ou en saisi utilisateur via la console.
+Vous avez la possibilité de remplir le CDataframe en dur (via le main entre les lignes 23 et 41) ou en saisie utilisateur via la console.
 
-Si vous choisissez de remplir le CDataframe en saisie utilisateur, si vous voulez marqué une absance de valeur, saisissez NULL dans la console. Ceci affichera alors NULL dans votre CDataframe comme valeur.
+Si vous choisissez de remplir le CDataframe en saisie utilisateur, et si vous voulez marquer une absence de valeur, saisissez NULL dans la console. Cela affichera alors NULL dans votre CDataframe comme valeur.
 
-ATTENTION :Si vous remplacez le CDataframe en dur, il faut bien faire attention à modifier dans le main la limite de la boucle afin de mettre le nombre de lignes du CDataframe.
+ATTENTION : Si vous remplacez le CDataframe en dur, il faut bien faire attention à modifier dans le main la limite de la boucle afin de mettre le nombre de lignes du CDataframe.
 
-Ensuite vous avez 16 fonctionalités possibles:
+Ensuite, vous avez 16 fonctionnalités possibles :
 
 1.Afficher une partie des lignes du CDataframe selon une limite fournie (afficher la limite sous la forme "x,y")
 

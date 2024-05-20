@@ -4,10 +4,6 @@ projet C
 
 
 
-# projetCDataframe
-projet C 
-
-
 
 Bienvenu dans le CDataframe.
 
